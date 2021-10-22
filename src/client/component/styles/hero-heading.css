@@ -1,0 +1,40 @@
+.hero-heading-wrapper {
+  max-width: 50%;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1;
+}
+.careers-hero-wrapper {
+  background-image: url("../../../assets//hero-image.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 250px;
+}
+.hero-heading-culture {
+  font-size: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.hero-heading-culture a {
+  color: inherit;
+}
+
+@media (min-width: 48em) {
+  .careers-hero-wrapper {
+    height: 600px;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero-heading-wrapper {
+    font-size: 64px;
+  }
+  
+}
+
+@media (min-width: 90em) {
+  .hero-heading-wrapper {
+    font-size: 96px;
+  }
+}

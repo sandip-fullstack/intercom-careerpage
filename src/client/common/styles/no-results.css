@@ -1,0 +1,11 @@
+.no-results-text {
+  margin: 36px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media  (min-width: 768px) {
+  .no-results-text {
+    font-size: 36px;
+  }
+}

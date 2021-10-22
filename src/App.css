@@ -1,0 +1,56 @@
+.main-wrapper {
+  max-width: 1290px;
+  margin: 0 20px;
+}
+.main-app {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.center-div {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold-text {
+  font-weight: 800;
+}
+.bold-text p {
+  margin: 0;
+}
+
+.section-cards {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 64em) {
+  .main-wrapper {
+    max-width: 1290px;
+    margin: 0 auto;
+  }
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 800ms ease-in-out;
+}
+
